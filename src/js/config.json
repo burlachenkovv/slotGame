@@ -1,0 +1,47 @@
+{
+	// 0: always win, 10: never win
+	"wildThreshold": 8,
+	"winThreshold": 5,
+
+	// [x, y]
+	"appSize": [960, 536],
+	"symbolSize": 235,
+	"symbolHeight": 155,
+	
+	// [x, y]
+	"reelCount": 3,
+	"reelCoords": [70, 36],
+	"reelPadding": 4,
+
+	// Calculating method for winY: (reelCoords "y" position) + (symbol height)
+	"winY": 191,
+	"winLineY": 240,
+
+	// params of the visible area for the reels container
+	"maskPadding": 10,
+	"maskWidth": 695,
+	"maskHeight": 465,
+
+	"rounds": 36,
+
+	// coordinates for the spin button: [x, y]
+	"buttonCoords": [824, 219],
+
+	// textrures structure
+	"textures": {
+		"background": "BG.png",
+		"symbols": {
+			"sym1": "SYM1.png",
+			"sym2": "SYM3.png",
+			"sym3": "SYM4.png",
+			"sym4": "SYM5.png",
+			"sym5": "SYM6.png",
+			"sym6": "SYM7.png"
+		},
+		"buttons": {
+			"enabled": "BTN_Spin.png",
+			"disabled": "BTN_Spin_d.png"
+		}
+	},
+
+}
